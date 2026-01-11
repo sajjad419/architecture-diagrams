@@ -51,7 +51,7 @@
           <mxGeometry height="82.23869532987398" width="293.03867403314916" x="320.00038674033135" y="287.0237212750186" as="geometry" />
         </mxCell>
         <mxCell id="cbt_completed" parent="1" style="rounded=1;fillColor=#b7e1cd;whiteSpace=wrap;container=0;" value="Appear for Exam(Off line)" vertex="1">
-          <mxGeometry height="82.23869532987398" width="293.03867403314916" x="677.731215469613" y="287.0237212750186" as="geometry" />
+          <mxGeometry height="82.24" width="242.27" x="681.73" y="287.02" as="geometry" />
         </mxCell>
         <mxCell id="oral_booked" parent="1" style="rounded=1;fillColor=#ffe6cc;whiteSpace=wrap;container=0;" value="CBT Exam Booked&#xa;(Upcoming)" vertex="1">
           <mxGeometry height="82.23869532987398" width="293.03867403314916" x="317.07182320441984" y="132.14084507042253" as="geometry" />
