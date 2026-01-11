@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
   <diagram id="w3dGuOGRG6mxemJi8cT8" name="Page-1">
-    <mxGraphModel dx="3112" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2701" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry height="130" width="10" x="65" y="720" as="geometry" />
         </mxCell>
         <mxCell id="ZMquMxiE1WhOwaN0Eg7r-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#1a1a1a;image=img/lib/mscae/API_Management.svg;imageBackground=#ffffff;imageBorder=none;" value="ADPay MS" vertex="1">
-          <mxGeometry height="976" width="150" x="590" y="-30" as="geometry" />
+          <mxGeometry height="976" width="150" x="630" y="-30" as="geometry" />
         </mxCell>
         <mxCell id="act4" parent="ZMquMxiE1WhOwaN0Eg7r-28" style="shape=umlActivationGroup;fillColor=#e0e0e0;strokeColor=#666666;" value="" vertex="1">
           <mxGeometry height="200" width="10" x="65" y="290" as="geometry" />
