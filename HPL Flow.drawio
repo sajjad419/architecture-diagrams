@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="4">
   <diagram name="HPL Flow" id="rwgbP1Yy1tH81Vad9tKe">
-    <mxGraphModel dx="3112" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2701" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oral_completed" parent="1" style="rounded=1;fillColor=#b7e1cd;whiteSpace=wrap;container=0;" value="Appear for Exam(Off line)" vertex="1">
-          <mxGeometry height="82.23869532987398" width="236.68508287292815" x="677.7298342541436" y="141.73084507042253" as="geometry" />
+          <mxGeometry height="82.23869532987398" width="236.68508287292815" x="677.7298342541436" y="132.14084507042253" as="geometry" />
         </mxCell>
         <mxCell id="B3HSSaZCYJzrnRoKTCyC-34" edge="1" parent="1" source="credentialing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="B3HSSaZCYJzrnRoKTCyC-19">
           <mxGeometry relative="1" as="geometry" />
@@ -296,7 +296,7 @@
         <mxCell id="B3HSSaZCYJzrnRoKTCyC-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;container=0;rounded=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" value="Eligibile for Credentialling?" vertex="1">
           <mxGeometry height="109.65159377316532" width="90.16574585635358" x="238.17679558011037" y="731.1126760563382" as="geometry" />
         </mxCell>
-        <mxCell id="B3HSSaZCYJzrnRoKTCyC-25" edge="1" parent="1" source="B3HSSaZCYJzrnRoKTCyC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.274;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" target="credentialing">
+        <mxCell id="B3HSSaZCYJzrnRoKTCyC-25" edge="1" parent="1" source="B3HSSaZCYJzrnRoKTCyC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="credentialing">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-280.27624309392274" y="635.1675315048185" as="targetPoint" />
           </mxGeometry>
@@ -354,7 +354,7 @@
           <mxGeometry height="117.87546330615271" width="90.16574585635358" x="1117.2928176795576" y="269.20533728687917" as="geometry" />
         </mxCell>
         <mxCell id="B3HSSaZCYJzrnRoKTCyC-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;container=0;rounded=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" value="CBT Exam Result?" vertex="1">
-          <mxGeometry height="117.87546330615271" width="90.16574585635358" x="1139.8342541436461" y="123.91697553743529" as="geometry" />
+          <mxGeometry height="117.87546330615271" width="90.16574585635358" x="1139.8342541436461" y="114.32697553743529" as="geometry" />
         </mxCell>
         <mxCell id="B3HSSaZCYJzrnRoKTCyC-43" edge="1" parent="1" source="B3HSSaZCYJzrnRoKTCyC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="NP7_oxD_n6Ma3D2B0h5N-172">
           <mxGeometry relative="1" as="geometry">
