@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
   <diagram id="w3dGuOGRG6mxemJi8cT8" name="Page-1">
-    <mxGraphModel dx="2701" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3112" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,10 +47,10 @@
           <mxGeometry height="150" width="10" x="65" y="760" as="geometry" />
         </mxCell>
         <mxCell id="ZMquMxiE1WhOwaN0Eg7r-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#1a1a1a;image=img/lib/mscae/Credit_Card.svg;imageBackground=#ffffff;imageBorder=none;" value="FAB/ADPay Gateway" vertex="1">
-          <mxGeometry height="976" width="150" x="1720" y="-40" as="geometry" />
+          <mxGeometry height="976" width="150" x="1740" y="-40" as="geometry" />
         </mxCell>
         <mxCell id="act6" parent="ZMquMxiE1WhOwaN0Eg7r-35" style="shape=umlActivationGroup;fillColor=#e0e0e0;strokeColor=#666666;" value="" vertex="1">
-          <mxGeometry height="50" width="10" x="65" y="370" as="geometry" />
+          <mxGeometry height="50" width="10" x="65" y="400" as="geometry" />
         </mxCell>
         <mxCell id="8" edge="1" parent="1" source="2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#006600;fontColor=#006600;animation=move;duration=1;" target="3" value="View Request Details (Pending Payment)">
           <mxGeometry relative="1" as="geometry">
@@ -80,11 +80,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZMquMxiE1WhOwaN0Eg7r-27" edge="1" parent="1" source="2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endArrow=block;strokeColor=#006600;fontColor=#006600;animation=move;duration=1;" target="3" value="Proceed to Pay">
+        <mxCell id="ZMquMxiE1WhOwaN0Eg7r-27" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endArrow=block;strokeColor=#006600;fontColor=#006600;animation=move;duration=1;" value="Proceed to Pay">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="296" y="260" />
+              <mxPoint x="296" y="268" />
             </Array>
+            <mxPoint x="-6.318181818181529" y="268" as="sourcePoint" />
+            <mxPoint x="394.5" y="268" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrAkg5nFBH4cGGH0Bp9_-26" edge="1" parent="1" source="3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;endArrow=block;strokeColor=#006600;fontColor=#006600;animation=move;duration=1;" target="ZMquMxiE1WhOwaN0Eg7r-28" value="Initialize Payment">
@@ -227,6 +229,9 @@
             <mxPoint x="660" y="930" as="sourcePoint" />
             <mxPoint y="930" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YKJOWfoLXMQcRhmOTLum-24" parent="1" style="shape=umlActivationGroup;fillColor=#e0e0e0;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="38" width="10" x="1810" y="869" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
