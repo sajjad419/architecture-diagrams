@@ -240,7 +240,7 @@
           <mxGeometry height="1088.884761904762" width="153.04568527918784" x="919.9962944162437" y="9.015238095238095" as="geometry" />
         </mxCell>
         <mxCell id="YKJOWfoLXMQcRhmOTLum-29" parent="YKJOWfoLXMQcRhmOTLum-25" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="DOH ESB" vertex="1">
-          <mxGeometry height="1088.884761904762" width="153.04568527918784" x="1241.9981218274113" y="5.560000000000014" as="geometry" />
+          <mxGeometry height="1088.884761904762" width="153.04568527918784" x="1241.9981218274113" y="11.120000000000013" as="geometry" />
         </mxCell>
         <mxCell id="YKJOWfoLXMQcRhmOTLum-28" parent="YKJOWfoLXMQcRhmOTLum-25" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#bac8d3;strokeColor=#23445d;" value="Accela" vertex="1">
           <mxGeometry height="1088.884761904762" width="153.04568527918784" x="1079.9972081218275" y="11.115238095238109" as="geometry" />
