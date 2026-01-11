@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="4">
   <diagram name="HPL Flow" id="rwgbP1Yy1tH81Vad9tKe">
-    <mxGraphModel dx="3759" dy="2857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3112" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,10 +48,10 @@
           <mxGeometry height="82.23869532987398" width="270.4972375690607" x="-607.1270718232045" y="241.78792438843593" as="geometry" />
         </mxCell>
         <mxCell id="cbt_booked" parent="1" style="rounded=1;fillColor=#ffe6cc;whiteSpace=wrap;container=0;" value="Oral Exam Booked&#xa;(Upcoming)" vertex="1">
-          <mxGeometry height="82.23869532987398" width="293.03867403314916" x="294.5303867403313" y="287.0237212750186" as="geometry" />
+          <mxGeometry height="82.23869532987398" width="293.03867403314916" x="320.00038674033135" y="287.0237212750186" as="geometry" />
         </mxCell>
         <mxCell id="cbt_completed" parent="1" style="rounded=1;fillColor=#b7e1cd;whiteSpace=wrap;container=0;" value="Appear for Exam(Off line)" vertex="1">
-          <mxGeometry height="82.23869532987398" width="293.03867403314916" x="621.3812154696129" y="287.0237212750186" as="geometry" />
+          <mxGeometry height="82.23869532987398" width="293.03867403314916" x="677.731215469613" y="287.0237212750186" as="geometry" />
         </mxCell>
         <mxCell id="oral_booked" parent="1" style="rounded=1;fillColor=#ffe6cc;whiteSpace=wrap;container=0;" value="CBT Exam Booked&#xa;(Upcoming)" vertex="1">
           <mxGeometry height="82.23869532987398" width="293.03867403314916" x="317.07182320441984" y="132.14084507042253" as="geometry" />
@@ -60,7 +60,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oral_completed" parent="1" style="rounded=1;fillColor=#b7e1cd;whiteSpace=wrap;container=0;" value="Appear for Exam(Off line)" vertex="1">
-          <mxGeometry height="82.23869532987398" width="236.68508287292815" x="756.6298342541436" y="132.14084507042253" as="geometry" />
+          <mxGeometry height="82.23869532987398" width="236.68508287292815" x="677.7298342541436" y="141.73084507042253" as="geometry" />
         </mxCell>
         <mxCell id="B3HSSaZCYJzrnRoKTCyC-34" edge="1" parent="1" source="credentialing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="B3HSSaZCYJzrnRoKTCyC-19">
           <mxGeometry relative="1" as="geometry" />
