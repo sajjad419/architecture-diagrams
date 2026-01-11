@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="4">
   <diagram name="HPL Flow" id="rwgbP1Yy1tH81Vad9tKe">
-    <mxGraphModel dx="4243" dy="3150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3759" dy="2857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,6 +173,21 @@
         <mxCell id="NP7_oxD_n6Ma3D2B0h5N-165" connectable="0" parent="NP7_oxD_n6Ma3D2B0h5N-164" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" value="Complete" vertex="1">
           <mxGeometry relative="1" x="-0.2625" y="1" as="geometry">
             <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3BYdmjkhNcydwYmgnfv-13" edge="1" parent="1" source="NP7_oxD_n6Ma3D2B0h5N-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="B3HSSaZCYJzrnRoKTCyC-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-590" y="-32" />
+              <mxPoint x="-590" y="1245" />
+              <mxPoint x="-168" y="1245" />
+            </Array>
+            <mxPoint x="-630" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3BYdmjkhNcydwYmgnfv-14" connectable="0" parent="N3BYdmjkhNcydwYmgnfv-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Rejected by HPL&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.281" y="2" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NP7_oxD_n6Ma3D2B0h5N-134" parent="1" style="rhombus;whiteSpace=wrap;html=1;container=0;rounded=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" value="Decision" vertex="1">
