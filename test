@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Payment_Billing_DB_Design">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Entities -->
+
+        <mxCell id="service" value="Service&#xa;PK service_id&#xa;service_name&#xa;description" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="220" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="applicant" value="Applicant&#xa;PK applicant_id&#xa;emirates_id&#xa;name&#xa;email" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="invoice" value="Invoice&#xa;PK invoice_id&#xa;service_id (FK)&#xa;applicant_id (FK)&#xa;invoice_number&#xa;total_amount&#xa;status&#xa;created_at" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="260" height="150" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="invoice_line" value="Invoice_Line&#xa;PK line_id&#xa;invoice_id (FK)&#xa;fee_type&#xa;description&#xa;amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="260" height="130" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="payment" value="Payment_Transaction&#xa;PK payment_id&#xa;invoice_id (FK)&#xa;amount&#xa;method&#xa;gateway_ref&#xa;status&#xa;paid_at" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="60" width="270" height="150" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="receipt" value="Receipt&#xa;PK receipt_id&#xa;receipt_number&#xa;service_id (FK)&#xa;applicant_id (FK)&#xa;total_paid&#xa;issued_at" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="270" height="130" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="receipt_payment" value="Receipt_Payment_Map&#xa;PK id&#xa;receipt_id (FK)&#xa;payment_id (FK)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="60" width="240" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bank" value="Bank_Account&#xa;PK account_id&#xa;bank_name&#xa;iban&#xa;account_holder&#xa;is_active" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="260" width="240" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- Relationships -->
+
+        <mxCell id="e1" edge="1" parent="1" source="service" target="invoice"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="applicant" target="invoice"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="invoice" target="invoice_line"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="invoice" target="payment"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="payment" target="receipt_payment"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="receipt" target="receipt_payment"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="receipt" target="service"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="receipt" target="applicant"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="payment" target="bank"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
